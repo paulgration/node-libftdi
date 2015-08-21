@@ -1,0 +1,16 @@
+{
+  "name": "libftdi",
+  "version": "0.0.1",
+  "description": "Bindings for ftdi library",
+  "keywords": "libftdi ftdi",
+  "homepage": "https://github.com/pmgration/node-libftdi",
+  "bugs": {
+    "url": "https://github.com/pmgration/node-libftdi/issues"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "repository": "pmgration/node-libftdi",
+  "dependencies": {
+    "bindings": "~1.2.1"
+  }
+}

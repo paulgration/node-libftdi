@@ -7,9 +7,13 @@
   "bugs": {
     "url": "https://github.com/pmgration/node-libftdi/issues"
   },
+  "main": "index.js",
   "license": "MIT",
   "gypfile": true,
   "repository": "pmgration/node-libftdi",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
   "dependencies": {
     "bindings": "~1.2.1"
   }

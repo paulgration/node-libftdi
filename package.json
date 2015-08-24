@@ -1,6 +1,6 @@
 {
   "name": "libftdi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bindings for ftdi library",
   "keywords": "libftdi ftdi",
   "homepage": "https://github.com/pmgration/node-libftdi",

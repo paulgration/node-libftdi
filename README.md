@@ -1,12 +1,25 @@
 node-libftdi
-=========
+============
 
 Binding for ftdi library calls.
 
 Written and tested with node.js v0.12.7 on linux.
 
+Requires ftdi development headers. Installing headers on Ubuntu:
+
+```bash
+$ sudo apt-get install libftdi-dev
+```
+
 Permissions may need to be changed to access the USB devices as a standard user.
-A specific device can be targeted by serial number as shown in the example.
+Example udev rule to set the group permissions for ftdi devices:
+
+```bash
+SUBSYSTEM=="usb",ATTR{idVendor}=="0403",ATTR{idProduct}=="6001",GROUP="plugdev"
+```
+
+A specific device can be targeted by serial number as shown in the 'Example
+usage' section.
 
 ## Installation
 
